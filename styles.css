@@ -1,0 +1,35 @@
+/* Импорты шрифтов и т.д */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Open+Sans:wght@400;700&family=Lobster&family=Inter&family=Archivo&display=swap');
+
+/* Стилизация */
+
+/* Тело */
+body {
+    font-family: 'Inter', courier-new;
+    background-color: #121403;
+    color: #bfffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Главный заголовок */
+h1 {
+    font-size: 40px;
+}
+
+/* Сем.тег загооовка сайта */
+header {
+    background-color: #0003ff;
+    text-align: center;
+    margin: 0%;
+    padding: 10%;
+}
+
+/* Сем.теги навигации и списка */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #bfffff;
+    font-size: 110%;
+}
